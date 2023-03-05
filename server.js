@@ -8,7 +8,6 @@ app.use(cors())
 app.get("/veve",(req, res, next) => {
     res.json({message: 'Je suis John Momboko'})
     next()
-
 })
 
 app.use((req, res) => {
